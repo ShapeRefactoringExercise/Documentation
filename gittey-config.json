@@ -26,18 +26,8 @@
             "command": "booklisp ./documentation/newlang/_main.md ./new_exercises.md"
         },
         {
-            "name": "docsTS",
-            "command": "booklisp ./Languages/TypeScript/documentation/_main.md ./Languages/TypeScript/readme.md",
-            "description": "generates the documentation for the Type Script exercise"
-        },
-        {
-            "name": "docsCS",
-            "command": "booklisp ./Languages/CSharp/documentation/_main.md ./Languages/CSharp/readme.md",
-            "description": "generates the documentation for the C# exercise"
-        },
-        {
             "name": "docs",
-            "command": "gittey docsMain; gittey docsTests; gittey docsNew; gittey docsTS; gittey docsCS",
+            "command": "gittey docsMain; gittey docsTests; gittey docsNew",
             "description": "generates all the documentations"
         },
         {
@@ -49,6 +39,11 @@
             "name": "undo",
             "command": "cls && git checkout . && git clean -f",
             "description": "sets project state to that of the last committed state"
+        },
+        {
+            "name": "push",
+            "command": "gittey docs && gittey commit && git push",
+            "description": "generates documents, commits, and pushes"
         }
     ],
     "collaborators": []
