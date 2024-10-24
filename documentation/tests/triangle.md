@@ -1,15 +1,15 @@
-<!--bl
-(filemeta
-    (title "What is a Triangle"))
-/bl-->
+<!--(dl
+(section-meta
+    (title What is a Triangle))
+)-->
 
 > Note: A triangle should only be constructable from the "Classify" method/function. The test cases should not be able to construct it directly.
 
-### A Triangle should contain the points that constructed it
+<!-- (dl (# A Triangle should contain the points that constructed it)) -->
 
 This will verify that a triangle returned from the classification process will grant access to the first three distinct points that were given to the process.
 
-### A Triangle should have three legs which are line segments constructed from the points
+<!-- (dl (# A Triangle should have three legs which are line segments constructed from the points)) -->
 
 This will verify that the Triangle will grant access to three line segments forming its sides. The Sides will have the names:
 
@@ -17,7 +17,7 @@ This will verify that the Triangle will grant access to three line segments form
 - Side B
 - Side C
 
-### A Triangle should have the correct angles
+<!-- (dl (# A Triangle should have the correct angles)) -->
 
 This will verify that the Triangle will have the expected angles such that:
 
@@ -39,7 +39,7 @@ C = length of Side C
 ∠C = ACOS((A² + B² - C²) / (2AB))(180/π)
 ```
 
-### A Triangle should have the correct area
+<!-- (dl (# A Triangle should have the correct area)) -->
 
 This will verify that a Triangle will grant access to its area which is correctly calculated.
 
@@ -53,6 +53,6 @@ C = length of Side C
 area = ¼√((A + B + C)(-A + B + C)(A - B + C)(A + B - C))
 ```
 
-### A Triangle should have the correct perimeter
+<!-- (dl (# A Triangle should have the correct perimeter)) -->
 
 This will verify that the Triangle will grant access to its perimeter which will be equal to the sum of its three side lengths.

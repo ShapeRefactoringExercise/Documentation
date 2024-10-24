@@ -1,0 +1,15 @@
+(section-meta
+    (title Shape Test Cases)
+    (subtitle A Guide to Making the Shape Classifier)
+    (include
+        (Section ./intro.md)
+        (Section ./classification.md)
+        (Section ./line_segment.md)
+        (Section ./triangle.md)
+        (Section ./rectangle.md)
+        (Section ./other.md)
+    )
+)
+
+(# Table of Contents)
+(content (toc numbered-labeled))

@@ -18,7 +18,7 @@
         },
         {
             "name": "docsTests",
-            "command": "booklisp ./documentation/tests/_main.md ./test_cases.md",
+            "command": "node ./node_modules/doculisp/dist/index.js ./documentation/tests/_main.dlisp ./test_cases.md",
             "description": "generates the documentation for the C# exercise"
         },
         {
