@@ -1,7 +1,7 @@
-<!--bl
-(filemeta
-    (title "A Note on Tooling"))
-/bl-->
+<!--(dl
+(section-meta
+    (title A Note on Tooling))
+)-->
 
 When developing this exercise I used two tools I want to call out. The first is ```Gittey```.
 

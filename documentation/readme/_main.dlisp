@@ -1,0 +1,20 @@
+(section-meta
+    (title Shape Refactoring Exercise)
+    (subtitle A Refactoring Chew Toy)
+    (include
+        (Section ./note.md)
+        (Section ./intro.md)
+        (Section ./reqs.md)
+        (Section ./def.md)
+        (Section ./setup.md)
+        (Section ./run.md)
+        (Section ./purpose.md)
+        (Section ./new.md)
+        (Section ./contrib.md)
+        (Section ./contributing.md)
+        (Section ./tooling.md)
+    )
+)
+
+(# Table of Contents)
+(content (toc numbered-labeled))

@@ -1,7 +1,7 @@
-<!--bl
-(filemeta
-    (title "Setup"))
-/bl-->
+<!--(dl
+(section-meta
+    (title Setup))
+)-->
 
 ### Global Setup
 

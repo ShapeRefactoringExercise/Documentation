@@ -1,43 +1,44 @@
+<!-- GENERATED DOCUMENT DO NOT EDIT! -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
 
-<!-- GENERATED DOCUMENT! DO NOT EDIT! -->
+<!-- Compiled with doculisp (version 2.2.0) https://www.npmjs.com/package/doculisp -->
+
 # Shape Refactoring Exercise #
-#### A Refactoring Chew Toy ####
 
-## Table Of Contents ##
+### A Refactoring Chew Toy ###
 
-- [Section 1: Note on Refactoring](#user-content-note-on-refactoring)
-- [Section 2: Introduction](#user-content-introduction)
-- [Section 3: Requirements](#user-content-requirements)
-- [Section 4: Definitions](#user-content-definitions)
-- [Section 5: Setup](#user-content-setup)
-- [Section 6: Run the tests](#user-content-run-the-tests)
-- [Section 7: Purpose of Code](#user-content-purpose-of-code)
-- [Section 8: Changes that need to be made](#user-content-changes-that-need-to-be-made)
-- [Section 9: Contributors](#user-content-contributors)
-- [Section 10: How to contribute](#user-content-how-to-contribute)
-- [Section 11: A Note on Tooling](#user-content-a-note-on-tooling)
+## Table of Contents ##
+
+1. [Section: Note on Refactoring](#note-on-refactoring)
+2. [Section: Introduction](#introduction)
+3. [Section: Requirements](#requirements)
+4. [Section: Definitions](#definitions)
+5. [Section: Setup](#setup)
+6. [Section: Run the tests](#run-the-tests)
+7. [Section: Purpose of Code](#purpose-of-code)
+8. [Section: Changes that need to be made](#changes-that-need-to-be-made)
+9. [Section: Contributors](#contributors)
+10. [Section: How to contribute](#how-to-contribute)
+11. [Section: A Note on Tooling](#a-note-on-tooling)
 
 ## Note on Refactoring ##
 
 _If_ you have to change a test to make a change work, you are not refactoring. You are instead rearchitecting. Now this code can benefit from a change to architecture but don't call it refactoring.
-    
 
 ## Introduction ##
 
 This is a different kind of refactoring exercise. Most code exercises have a specific answer and are designed to be solved within a couple of hours. This one is intended to have a large number of solutions and take more then 10 hours without completion.
 
 The idea is to be an exercise that you can continuously go back to and see new things. This is not intended for someone who is new to "_test based refactoring_" but for those who are familiar with the process and want to stay sharp or want to dive deeper.
-    
 
 ## Requirements ##
 
 The requirements are for each exercise is in the language specific readme. Please look there to know more.
-    
 
 ## Definitions ##
 
 **Refactoring**: Throughout this exercise the word "refactoring" means changing structure _without_ changing external behavior.
-    
 
 ## Setup ##
 
@@ -58,12 +59,9 @@ In the directory for the exercise run:
 - [TypeScript](https://github.com/ShapeRefactoringExercise/LanguageTypeScript)
 - [C#](https://github.com/ShapeRefactoringExercise/LanguageCSharp)
 
-    
-
 ## Run the tests ##
 
 Thanks to Gittey running the tests looks the same. However please look at the language specific read me for how to run the tests.
-    
 
 ## Purpose of Code ##
 
@@ -109,7 +107,6 @@ A rectangle will contain the area of the rectangle.
 ### Other
 
 The other shape is formed by an array of points that do not make any other shape. It contains the points that formed it.
-    
 
 ## Changes that need to be made ##
 
@@ -131,15 +128,11 @@ If given 5 points that form a parallelogram, but not a rectangle the shape retur
 A parallelogram has 4 line segments, side A, side B, side C and side D with side A being the first line segment and all other line segments being consecutive. It has for angles angle A, angle B, angle C and angle D, with angle A being the first angle, and all other angles being consecutive.
 
 A parallelogram should have a height, a width, a perimeter, and a volume.
-    
 
 ## Contributors ##
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
 <table>
   <tbody>
     <tr>
@@ -149,18 +142,11 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tbody>
 </table>
 
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
-    
 
 ## How to contribute ##
 
 The guide to how to contribute is here: [How To Contribute](./contributing.md).
-    
 
 ## A Note on Tooling ##
 
@@ -171,7 +157,7 @@ When developing this exercise I used two tools I want to call out. The first is 
 **[Book Lisp](https://www.npmjs.com/package/booklisp)** is a mark down document generator that was used to build the document you are currently reading. Book Lisp allows me to break the document into smaller manageable chunks and then compile them into bigger documents.
 
 Both of these tools were created and maintained by [Chris Stead](https://github.com/cmstead). I give him a due thanks for the work he puts into making developer lives easier.
-    
 
-<!-- GENERATED DOCUMENT! DO NOT EDIT! -->
-    
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+<!-- GENERATED DOCUMENT DO NOT EDIT! -->

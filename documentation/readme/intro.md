@@ -1,7 +1,7 @@
-<!--bl
-(filemeta
-    (title "Introduction"))
-/bl-->
+<!--(dl
+(section-meta
+    (title Introduction))
+)-->
 
 This is a different kind of refactoring exercise. Most code exercises have a specific answer and are designed to be solved within a couple of hours. This one is intended to have a large number of solutions and take more then 10 hours without completion.
 

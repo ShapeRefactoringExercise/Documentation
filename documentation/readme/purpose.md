@@ -1,7 +1,7 @@
-<!--bl
-(filemeta
-    (title "Purpose of Code"))
-/bl-->
+<!--(dl
+(section-meta
+    (title Purpose of Code))
+)-->
 
 The code takes an array of points and returns an objects that represents the shape and some of its properties.
 

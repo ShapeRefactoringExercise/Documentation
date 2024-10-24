@@ -1,0 +1,14 @@
+{
+  "name": "documentation",
+  "version": "1.0.0",
+  "description": "<!-- GENERATED DOCUMENT! DO NOT EDIT! --> # Shape Refactoring Exercise # #### A Refactoring Chew Toy ####",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "doculisp": "^2.1.0"
+  }
+}

@@ -1,7 +1,7 @@
-<!--bl
-(filemeta
-    (title "Changes that need to be made"))
-/bl-->
+<!--(dl
+(section-meta
+    (title Changes that need to be made))
+)-->
 
 Now to make the refactoring more focused, we have two expected changes that need to happen. These are optional for the purpose of the exercise but help us have a goal in mind.
 
