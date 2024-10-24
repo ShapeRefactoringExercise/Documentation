@@ -1,0 +1,13 @@
+(section-meta
+    (title How to contribute)
+    (subtitle A welcome guide to helping out)
+    (include
+        (Section ./intent.md)
+        (Section ./basics.md)
+        (Section ./lang.md)
+        (Section ./better.md)
+    )
+)
+
+(# Table of Contents)
+(content (toc numbered-labeled))

@@ -1,7 +1,7 @@
-<!--bl
-(filemeta
-    (title "Intention of Design"))
-/bl-->
+<!--(dl
+(section-meta
+    (title Intention of Design))
+)-->
 
 This exercise has two main intents:
 
