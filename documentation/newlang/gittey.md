@@ -1,11 +1,11 @@
-<!--bl
-(filemeta
-    (title "Setting up Gittey"))
-/bl-->
+<!--(dl
+(section-meta
+    (title Setting up Gittey))
+)-->
 
 Gittey is heavily part of the ecosystem of these exercises so it is impoatant to have Gittey configured correctly.
 
-### Gittey Config File
+<!-- (dl (# Gittey Config File)) -->
 
 It is worth reading the [Gittey documentation](https://github.com/cmstead/gittey/blob/main/README.md) as this document will only discuss the parts that pertain directly to what is needed for exercises.
 

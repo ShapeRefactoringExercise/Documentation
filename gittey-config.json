@@ -23,7 +23,7 @@
         },
         {
             "name": "docsNew",
-            "command": "booklisp ./documentation/newlang/_main.md ./new_exercises.md"
+            "command": "node ./node_modules/doculisp/dist/index.js ./documentation/newlang/_main.dlisp ./new_exercises.md"
         },
         {
             "name": "docs",

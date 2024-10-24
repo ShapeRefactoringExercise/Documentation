@@ -1,0 +1,13 @@
+(section-meta
+    (title How to add an Exercise)
+    (include
+        (Section ./intent.md)
+        (Section ./basics.md)
+        (Section ./gittey.md)
+        (Section ./docsbasics.md)
+        (Section ./docsections.md)
+    )
+)
+
+(# Table of Contents)
+(content (toc numbered-labeled))
